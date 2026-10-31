@@ -1,0 +1,143 @@
+// Catalogue of government services shown in CitizenConnect → Government Information.
+export const governmentServices = [
+  {
+    title: 'National ID Services',
+    category: 'Identity',
+    summary: 'Apply for or replace your national identification card',
+    description:
+      'The national identity card is issued by NIDA and is required for banking, travel, land transactions, examinations, SIM registration and most public services. This service covers first issuance for citizens and replacement of a lost, stolen or damaged card.',
+    requirements: [
+      'Birth certificate or other proof of Rwandan nationality',
+      'Parent or guardian national ID (for applicants under 16)',
+      'Police report for a lost or stolen card',
+      'Passport-size photo where requested',
+    ],
+    steps: [
+      'Book the service on Irembo or visit the NIDA service centre',
+      'Submit your documents and complete biometric capture',
+      'Pay any replacement fee and keep the receipt',
+      'Collect the card when you are notified that it is ready',
+    ],
+    fee: 'Free for first issuance; a fee applies for replacement',
+    processingTime: '5–10 working days',
+    office: 'NIDA service centre or your sector office',
+    contact: 'nida.gov.rw',
+  },
+  {
+    title: 'Passport Application',
+    category: 'Travel',
+    summary: 'Apply for a Rwandan passport',
+    description:
+      'Rwandan passports are issued by the Directorate General of Immigration and Emigration (DGIE). Ordinary passports are issued to citizens for travel, while service and diplomatic passports are issued under separate conditions. Renewals follow the same application flow as a new passport.',
+    requirements: [
+      'National ID',
+      'Birth certificate',
+      'Payment receipt for the passport fee',
+      'Previous passport (for renewals)',
+    ],
+    steps: [
+      'Complete the application on Irembo and pay the fee',
+      'Book an appointment for biometric capture',
+      'Attend the appointment at the DGIE office with your originals',
+      'Collect the passport or track delivery once it is ready',
+    ],
+    fee: 'Paid service — confirm the current rate on Irembo before paying',
+    processingTime: 'About 10 working days',
+    office: 'DGIE offices, with applications started on Irembo',
+    contact: 'irembo.gov.rw',
+  },
+  {
+    title: 'Civil Registration',
+    category: 'Civil Registration',
+    summary: 'Birth, marriage, and death certificates',
+    description:
+      'Civil registration records births, marriages and deaths so that citizens have official proof of their civil status. Births should be registered at the sector civil registrar, and the certificate is then used for school enrolment, national ID applications and inheritance matters.',
+    requirements: [
+      'National IDs of the parents or spouses',
+      'Birth notification from the health facility (for births)',
+      'National IDs of witnesses (for marriages)',
+      'Death notification from a health facility or local authority (for deaths)',
+    ],
+    steps: [
+      'Go to the civil registrar at your sector office',
+      'Present the supporting documents for the event',
+      'The registrar records the event in the civil registry',
+      'Collect the certificate the same day',
+    ],
+    fee: 'Birth and death registration are free; a marriage certificate fee applies',
+    processingTime: 'Same day',
+    office: 'Sector civil registrar',
+    contact: 'Your sector office',
+  },
+  {
+    title: 'Land Registration',
+    category: 'Land',
+    summary: 'Register land titles and property',
+    description:
+      'Land registration confirms ownership of land and property and is handled by the district land bureau under the Rwanda Land Management and Use Authority (RLMUA). Registering a sale, gift or inheritance protects your rights and is required before most land transactions.',
+    requirements: [
+      'Sale, gift or inheritance agreement',
+      'National IDs of all parties involved',
+      'Existing land title or proof of land allocation',
+      'Survey or mutation report for the parcel',
+      'Tax clearance where required',
+    ],
+    steps: [
+      'Submit the transfer request at your district land bureau',
+      'Land officers verify the documents and survey the parcel',
+      'The transfer is approved and recorded in the land registry',
+      'Collect the updated land title certificate',
+    ],
+    fee: 'Fee depends on the land value and the type of transaction',
+    processingTime: 'Varies — usually several weeks',
+    office: 'District land bureau (RLMUA)',
+    contact: 'Your district land office',
+  },
+  {
+    title: 'Business Registration',
+    category: 'Business',
+    summary: 'Register your business through RDB',
+    description:
+      'The Rwanda Development Board (RDB) registers companies and sole proprietorships. Registration is completed online and produces the certificate of incorporation together with a tax identification number (TIN) used by RRA.',
+    requirements: [
+      'Proposed business name',
+      'National IDs and details of the owners or shareholders',
+      'Memorandum and articles of association (for companies)',
+      'Registered office address',
+    ],
+    steps: [
+      'Create an account on the RDB online portal',
+      'Reserve the business name',
+      'Submit the application with the required documents',
+      'Pay the registration fee and download the certificate',
+    ],
+    fee: 'Fee depends on the business type; paid online',
+    processingTime: '1–3 working days',
+    office: 'Rwanda Development Board, via Irembo',
+    contact: 'rdb.rw · irembo.gov.rw',
+  },
+  {
+    title: 'Driving License',
+    category: 'Transport',
+    summary: 'Apply for or renew your driving license',
+    description:
+      'Driving licenses are issued by the Traffic and Road Safety Department of the Rwanda National Police. Applicants must prove they are medically fit and have completed training at a recognised driving school before taking the theory and practical tests.',
+    requirements: [
+      'National ID',
+      'Medical certificate',
+      'Driving school completion certificate',
+      'Recent passport-size photo',
+      'Current license (for renewals)',
+    ],
+    steps: [
+      'Book the license service on Irembo',
+      'Complete the medical check-up',
+      'Pass the theory and practical driving tests',
+      'Pay the license fee and collect the card',
+    ],
+    fee: 'Fee depends on the license category',
+    processingTime: 'Varies with the test schedule',
+    office: 'District traffic and road safety office',
+    contact: 'Your district police traffic office',
+  },
+];
